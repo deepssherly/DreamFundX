@@ -51,7 +51,7 @@ const fund = amount => {
       value: amountWei,
       gas: 3000000
     })
-    .then(() => console.log("Successfully funded!"));
+    .then(() => alert("Successfully funded!"));
 };
 
 const changeTotal = amount => {
