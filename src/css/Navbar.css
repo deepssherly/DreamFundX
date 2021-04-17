@@ -18,10 +18,22 @@
   max-width: 1500px;
 }
 
+.logout-btn {
+  font-weight: bold;
+  height:80px;
+  color: white;
+  background-color: transparent;
+}
+
+.logout-btn:hover{
+  color: white;
+  text-decoration: none;
+  height: 80px;
+}
 .btn-primary {
   background-color: transparent !important;
-  border-color: transparent  !important;
-  font-size:19.2px !important;
+  border-color: transparent !important;
+  font-size: 19.2px !important;
 }
 
 .navbar-logo {
@@ -53,14 +65,14 @@
 .nav-item {
   height: 80px;
 }
+
 .nav-item:hover {
-  color:white;
+  color: white;
   text-decoration: none;
   height: 80px;
 }
 
-
-.nav-links {
+.nav-links,.logout-btn {
   color: #fff;
   display: flex;
   align-items: center;
@@ -69,8 +81,8 @@
   height: 100%;
 }
 
-.nav-links:hover {
-  color:white;
+.nav-links:hover, .logout-btn:hover {
+  color: white;
   text-decoration: none;
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;

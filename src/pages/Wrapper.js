@@ -2,7 +2,13 @@ import fire from "../components/fire";
 import React, { useState, useEffect } from "react";
 import Login from "./Login";
 import "../css/Wrapper.css";
-import  { Redirect } from 'react-router-dom';
+// import  { Redirect } from 'react-router-dom';
+import '../App.css';
+import Cards from '../components/Cards';
+import GenNavbar from '../components/GenNavbar';
+import Slideshow from '../components/Slideshow';
+import CardsFintech from '../components/Cards-fintech';
+import '../css/campaigns.css';
 
 function Wrapper() {
   const [user, setUser] = useState("");
@@ -80,8 +86,13 @@ function Wrapper() {
 
   return (
     <div className="App">
-      {user ? (
-        <Redirect to='/campaigns'  />
+      {(user) ? (
+        <>
+        <GenNavbar  handleLogout={handleLogout}/>
+        <Slideshow />
+        <Cards />
+        <CardsFintech />
+      </>
       ) : (
         <Login
           email={email}

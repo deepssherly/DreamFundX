@@ -15,7 +15,7 @@ function Home() {
         <h1><img src="images/Df__logo.png" id="title-logo" height="90" width="100" alt="dflogo" /> DreamFundX</h1>
         <p>A CrowdFunding Platform</p>
         <div className='hero-btns'>
-          <Link to='/sign-up'>
+          <Link to='/getstarted'>
             <Button
               className='btns'
               buttonStyle='btn--outline'

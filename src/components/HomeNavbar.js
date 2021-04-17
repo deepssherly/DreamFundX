@@ -27,7 +27,7 @@ function HomeNavbar() {
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/campaigns'
                 className='nav-links'
@@ -35,17 +35,17 @@ function HomeNavbar() {
               >
                 Explore
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <Link
                 to='/getstarted'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Login
+                Get started
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Dropdown className='nav-links'>
                 <Dropdown.Toggle id="dropdown-basic" >
                   Register
@@ -55,8 +55,8 @@ function HomeNavbar() {
                   <Dropdown.Item href="#">Contributor Account</Dropdown.Item>
                   <Dropdown.Item href="#">Business Account</Dropdown.Item>
                 </Dropdown.Menu>
-              </Dropdown>
-            </li>
+  </Dropdown>
+            </li> */}
           </ul>
         </div>
       </nav>
