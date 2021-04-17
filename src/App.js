@@ -2,9 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Login from './pages/Login';
+import Wrapper from './pages/Wrapper';
 import Campaigns from './pages/Campaigns';
-import Register from './pages/Register';
 import CrowdFund from './pages/CrowdFund';
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/campaigns' component={Campaigns} />
-          <Route path='/login' component={Login} />
-          <Route path='/register' component={Register} />
+          <Route path='/getstarted' component={Wrapper} />
           <Route path='/crowdfund' component={CrowdFund} />
         </Switch>
       </Router>

@@ -38,7 +38,7 @@ function HomeNavbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/login'
+                to='/getstarted'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
