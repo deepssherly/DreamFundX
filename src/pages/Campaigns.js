@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+import Cards from '../components/Cards';
+import GenNavbar from '../components/GenNavbar';
+import Slideshow from '../components/Slideshow';
+import '../css/campaigns.css';
 
-function Campaigns() {
+export default function Campaigns() {
     return (
-        <div>
-            
-        </div>
+      <>
+        <GenNavbar />
+        <Slideshow />
+        <Cards />
+      </>
+  
     )
-}
-
-export default Campaigns
+  }

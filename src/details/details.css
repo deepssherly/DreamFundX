@@ -1,0 +1,140 @@
+/* Profile image header */
+#profile-upper
+{
+    position: relative;
+}
+
+#profile-d
+{
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+    right: 0px;
+    height: 140px;
+    z-index: 2;
+}
+
+#profile-banner-image
+{
+    height: 360px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#profile-banner-image img
+{
+    width: 100%;
+    margin-top: -20%;
+}
+
+#profile-pic
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 3px;
+    margin-top: 28px;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #fff;
+}
+
+#profile-pic img
+{
+    width: 100%;
+}
+
+
+.container {
+    margin:10px auto;
+    padding-left: 200px;
+    font-size: 24px;
+    border-bottom: 1px solid grey;
+}
+.container2 {
+    margin:20px auto;
+    padding-left: 220px;
+}
+.box {
+    max-width: 1560px;
+    margin:10px auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    color: rgb(94, 91, 91);
+}
+
+
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: gray;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  .fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2px;
+    margin: 0px 3px;
+    border-radius: 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .CategoryLabel {
+    font-size: 0.75rem;
+    margin-top: 7px;
+    padding: 0.2em 0.5em;
+    background: rgb(199, 190, 190);
+    border: 1px solid #e8eaeb;
+    color: #34383a;
+    white-space: nowrap;
+    display: inline-block;
+}
+.column1 > p{
+    padding-top: 10px;
+}
+.column > p {
+    padding-top: 10px;
+}
+
+.socials {
+    padding-top: 7px;
+}
