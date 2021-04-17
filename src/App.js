@@ -11,6 +11,13 @@ import FrozenBottle from './details/foodsector/FrozenBottle';
 import HungerBox from './details/foodsector/HungerBox';
 import NiteFoodie from './details/foodsector/NiteFoodie';
 import OsomeFoods from './details/foodsector/OsomeFoods';
+import Finly from './details/fintech/Finly';
+import Refrens from './details/fintech/Refrens';
+import Kredx from './details/fintech/Kredx';
+import Instamojo from './details/fintech/Instamojo';
+import Lendingkart from './details/fintech/Lendingkart';
+import Khatabook from './details/fintech/Khatabook';
+
 
 function App() {
   return (
@@ -28,6 +35,12 @@ function App() {
           <Route path='/hungerbox' component={HungerBox} />
           <Route path='/nitefoodie' component={NiteFoodie} />
           <Route path='/osomefoods' component={OsomeFoods} />
+          <Route path='/finly' component={Finly} />
+          <Route path='/refrens' component={Refrens} />
+          <Route path='/kredx' component={Kredx} />
+          <Route path='/instamojo' component={Instamojo} />
+          <Route path='/lendingkart' component={Lendingkart} />
+          <Route path='/khatabook' component={Khatabook} />
         </Switch>
       </Router>
     </>
