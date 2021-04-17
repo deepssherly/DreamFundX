@@ -2,6 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
+import { Link } from "react-router-dom";
 
 export default function AllThatDips() {
   return (
@@ -55,6 +56,12 @@ export default function AllThatDips() {
           <p>Mar 7, 2017</p>
           <p>80 lakhs</p>
       </div>
+
+      <div class="column3">
+      <Link to='/crowdfund'><button class="button button2">Click here to fund</button></Link>
+      . Connect - Authorize Amount - Fund .
+      </div>
+
       </div>
       </div>
       

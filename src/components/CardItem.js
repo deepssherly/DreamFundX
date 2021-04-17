@@ -22,7 +22,7 @@ function CardItem(props) {
           <div className='cards__item__location'><i class='fas fa-map-marker-alt' style={{color: "#005487"}}></i> {props.location}</div>
           <div className='line'></div>
           <div className='cards__raise__info'>
-            <h3 className='cards__raise__text'>Raised <div class="fund-button">Fund</div></h3>
+            <h3 className='cards__raise__text'>Raised <div class="fund-button">View</div></h3>
             <h3 className='cards__raise__percent'>{props.completed}% of total target</h3>
           </div>
           <ProgressBar  bgcolor={props.bgcolor} completed={props.completed} />
