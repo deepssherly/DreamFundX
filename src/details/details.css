@@ -56,8 +56,8 @@
 .box {
     max-width: 1560px;
     margin:10px auto;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
     font-size: 20px;
     color: rgb(94, 91, 91);
 }

@@ -28,8 +28,6 @@ function DetailsNavbar() {
                 Back
               </Link>
             </li>
-          
-       
           </ul>
         </div>
       </nav>

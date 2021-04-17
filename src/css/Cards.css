@@ -44,6 +44,10 @@ h1 {
   text-decoration: none;
 }
 
+.cards__item__link:hover {
+  text-decoration: none;
+}
+
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;
@@ -95,7 +99,7 @@ h1 {
 
 .cards__item__location {
   padding: 0px 30px 30px;
-  font-size:16px;
+  font-size: 16px;
   color: black;
 }
 
@@ -124,7 +128,7 @@ h1 {
 }
 
 .line {
-  border-bottom: 1px solid rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   padding: 0 40px;
   float: center;
 }
@@ -154,7 +158,8 @@ h1 {
 }
 
 .fund-button {
-  background-color: #005487; /* Green */
+  background-color: #005487;
+  /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
