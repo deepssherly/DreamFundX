@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function Instamojo(){
   return (
     <>
@@ -20,7 +20,7 @@ export default function Instamojo(){
       <div className="container">
         <h1>Instamojo</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p> Instamojo is a full-stack transactional platform aimed at bringing small business online. With transactions being a key part of every business, we pioneered Payment Links in India, an easy to start and easy to integrate payment solution </p>
         <br></br>
         <p>80% raised of total target</p>
@@ -55,6 +55,12 @@ export default function Instamojo(){
           <p>2012</p>
           <p>85 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

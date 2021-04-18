@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function FrozenBottle() {
   return (
     <>
@@ -20,7 +20,7 @@ export default function FrozenBottle() {
       <div className="container">
         <h1>Frozen Bottle</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p>Provides a wide variety of products namely thick Milkshakes, knockout Scoops, Cake jars, Stone jars, Waffle sandwiches, Waffle sticks, Ice cream pizza and Sundaes.</p>
         <br></br>
         <p>70% raised of total target</p>
@@ -55,6 +55,12 @@ export default function FrozenBottle() {
           <p>2017</p>
           <p>75 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

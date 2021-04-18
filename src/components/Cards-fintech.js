@@ -3,11 +3,11 @@ import './../css/Cards.css';
 import CardItem from './CardItem';
 
 function CardsFintech() {
-    return ( <
-        div className = 'cards' >
-        <
-        h1 > Check out these Campaigns and Start Donating < /h1> <
-        div className = 'cards__container' >
+    return (
+        <div className = 'cards' >
+                  <h1>FinTech companies</h1>
+      <h2>Join the mission to change the financial industry once and for all</h2>
+        <div className = 'cards__container' >
         <
         div className = 'cards__wrapper' >
         <

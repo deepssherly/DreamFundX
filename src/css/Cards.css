@@ -5,8 +5,17 @@
 
 h1 {
   text-align: center;
+  font-size:38px;
+  font-weight: bold;
 }
 
+h2 {
+  font-size:26px;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
 .cards__container {
   display: flex;
   flex-flow: column;
@@ -15,7 +24,9 @@ h1 {
   width: 90%;
   margin: 0 auto;
 }
-
+.cards__container :hover{
+  text-decoration: none;
+}
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
@@ -43,11 +54,9 @@ h1 {
   overflow: hidden;
   text-decoration: none;
 }
-
-.cards__item__link:hover {
-  text-decoration: none;
+.cards__item__link:hover{
+  text-decoration:none;
 }
-
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;
@@ -99,7 +108,7 @@ h1 {
 
 .cards__item__location {
   padding: 0px 30px 30px;
-  font-size: 16px;
+  font-size:16px;
   color: black;
 }
 
@@ -128,7 +137,7 @@ h1 {
 }
 
 .line {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
   padding: 0 40px;
   float: center;
 }
@@ -158,8 +167,7 @@ h1 {
 }
 
 .fund-button {
-  background-color: #005487;
-  /* Green */
+  background-color: #005487; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -172,4 +180,9 @@ h1 {
 
 .fas fa-map-marker-alt {
   font-size: 8px;
+}
+
+.blck-line{
+  border:none;
+  border-bottom:2px solid black;
 }

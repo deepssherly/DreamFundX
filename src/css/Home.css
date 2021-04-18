@@ -69,7 +69,7 @@ hr {
 	margin: 0;
 }
 
-.box-new-1 {
+.box-new1-1 {
 	line-height: 1.5;
 	background-color: rgba(175, 175, 175, 0.718);
 	padding: 30px 20px;
@@ -77,7 +77,7 @@ hr {
 	font-size: 90%;
 }
 
-.box-new-2 {
+.box-new1-2 {
 	line-height: 1.5;
 	padding: 30px 20px;
 	margin: 60px 0;
@@ -204,7 +204,7 @@ h3 {
 	padding: 5px 5px 15px 5px;
 }
 
-.box-new {
+.box-new1 {
 	padding: 0 20px;
 }
 
@@ -248,7 +248,7 @@ button.btn.btn--primary.btn--large {
 	padding: 0 5px;
 }
 
-.box-new>p {
+.box-new1>p {
 	margin: 15px;
 }
 

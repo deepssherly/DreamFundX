@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function HungerBox() {
   return (
     <>
@@ -20,7 +20,7 @@ export default function HungerBox() {
       <div className="container">
         <h1>HungerBox</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p>HungerBox is a B2B food-tech startup founded by Sandipan Mitra in 2007. The startup is a full-stack B2B and F&B (food and beverage) technology venture and delivers food solutions for corporate clients.</p>
         <br></br>
         <p>75% raised of total target</p>
@@ -55,6 +55,12 @@ export default function HungerBox() {
           <p>June 2013</p>
           <p>75 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

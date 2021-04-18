@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function FreshMenu() {
   return (
     <>
@@ -20,7 +20,7 @@ export default function FreshMenu() {
       <div className="container">
         <h1>FreshMenu</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p>FreshMenu is a Bangalore-based restaurant that offers freshly prepared food from cuisines such as oriental, continental, Italian, Mughlai and others.</p>
         <br></br>
         <p>50% raised of total target</p>
@@ -55,6 +55,12 @@ export default function FreshMenu() {
           <p>2013</p>
           <p>80 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

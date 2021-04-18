@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function Kredx(){
   return (
     <>
@@ -20,7 +20,7 @@ export default function Kredx(){
       <div className="container">
         <h1>Kredx</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p> KredX is India’s first invoice discounting marketplace platform. It helps businesses gain quick access to working capital in around 24 to 72 hours by selling their unpaid receivables </p>
         <br></br>
         <p>85% raised of total target</p>
@@ -55,6 +55,12 @@ export default function Kredx(){
           <p>September 13,2015</p>
           <p>85 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

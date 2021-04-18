@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function Finly(){
   return (
     <>
@@ -20,7 +20,7 @@ export default function Finly(){
       <div className="container">
         <h1>Finly</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p> Finly is designed to simplify business spend and expense management by providing finance teams with tools and data to get a better insight into their spend </p>
         <br></br>
         <p>70% raised of total target</p>
@@ -55,6 +55,12 @@ export default function Finly(){
           <p>October 24, 2015</p>
           <p>90 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

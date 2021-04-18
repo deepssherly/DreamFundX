@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function NiteFoodie() {
   return (
     <>
@@ -20,7 +20,7 @@ export default function NiteFoodie() {
       <div className="container">
         <h1>NiteFoodie</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p>NiteFoodie is a fast growing startup focused on providing Night Time Convenience be it food, meds, utilities or munchies.NiteFoodie powers consistency in availability of all items, like its a day!</p>
         <br></br>
         <p>40% raised of total target</p>
@@ -55,6 +55,12 @@ export default function NiteFoodie() {
           <p>2014</p>
           <p>60 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

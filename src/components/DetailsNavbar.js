@@ -24,7 +24,7 @@ function DetailsNavbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/explore' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/getstarted' className='nav-links' onClick={closeMobileMenu}>
                 Back
               </Link>
             </li>

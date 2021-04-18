@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function Khatabook(){
   return (
     <>
@@ -20,7 +20,7 @@ export default function Khatabook(){
       <div className="container">
         <h1>Khatabook</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p>Khatabook enables micro, small and medium merchants to track business transactions safely and securely. It also offers features such as online payment collection through UPI and QR; sending periodic reminders to creditors via messages and report generation </p>
         <br></br>
         <p>50% raised of total target</p>
@@ -55,6 +55,12 @@ export default function Khatabook(){
           <p>October 15, 2018</p>
           <p>90 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

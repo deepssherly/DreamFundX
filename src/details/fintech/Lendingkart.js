@@ -2,7 +2,7 @@ import React from 'react';
 import DetailsNavbar from '../../components/DetailsNavbar';
 import '../details.css';
 import ProgressBar from "./../../components/details-page-progress-bar.component";
-
+import { Link } from "react-router-dom";
 export default function Lendingkart(){
   return (
     <>
@@ -20,7 +20,7 @@ export default function Lendingkart(){
       <div className="container">
         <h1>Lendingkart</h1>
       </div>
-      <div className="box">
+      <div className="box-new">
         <p>  Lendingkart is an online financing company founded by Harshvardhan Lunia and Mukul Sachan in 2014. Lendingkart provides loans for working capital needs for SMEs.These loans are quick and collateral-free with minimal paperwork </p>
         <br></br>
         <p>75% raised of total target</p>
@@ -55,6 +55,12 @@ export default function Lendingkart(){
           <p>January 18,1996</p>
           <p>70 lakhs</p>
       </div>
+      <div class="column3">
+            <Link to="/crowdfund">
+              <button class="button button2">Click here to fund</button>
+            </Link>
+            <div>. Connect - Authorize Amount - Fund .</div>
+          </div>
       </div>
       </div>
       

@@ -6,7 +6,6 @@ import "../css/normalize.css";
 import { Button } from "../components/Button";
 import { Link } from "react-router-dom";
 import HomeNavbar from "../components/HomeNavbar";
-import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -51,13 +50,13 @@ function Home() {
           <img src="images/pattern2.svg" className="svg-img" alt="pattern2" />
         </div>
         <div className="row-new">
-          <div className="col-new span-1-of-3 box-new">
+          <div className="col-new span-1-of-3 box-new1">
             <h3>
               <i className="fas fa-book-reader box-new-icon"></i>Our Purpose
             </h3>
             <p>To unlock Human potential for Good</p>
           </div>
-          <div className="col-new span-1-of-3 box-new">
+          <div className="col-new span-1-of-3 box-new1">
             <h3>
               <i className="fas fa-bullseye box-new-icon"></i>Our Mission
             </h3>
@@ -66,7 +65,7 @@ function Home() {
               blockchain-enabled Smart Contracts
             </p>
           </div>
-          <div className="col-new span-1-of-3 box-new">
+          <div className="col-new span-1-of-3 box-new1">
             <h3>
               <i className="fab fa-angellist box-new-icon"></i>Our Vision
             </h3>
@@ -87,7 +86,7 @@ function Home() {
           />
         </div>
         <div className="col-new span-2-of-7 col-new-box-2">
-          <div className="box-new-1">
+          <div className="box-new1-1">
             <div>
               <h3 className="col-new">Register</h3>
             </div>
@@ -100,7 +99,7 @@ function Home() {
               upload your documents and you are ready to start!
             </p>
           </div>
-          <div className="box-new-2">
+          <div className="box-new1-2">
             <h3>Start Investing</h3>
             <p>
               Once your account is approved,<br></br>
@@ -109,7 +108,7 @@ function Home() {
               to see the available campaigns
             </p>
           </div>
-          <div className="box-new-2">
+          <div className="box-new1-2">
             <h3>Monitor Your Investment</h3>
             <p>
               You can easily monitor investments via your dashboard<br></br>
