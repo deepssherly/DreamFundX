@@ -10,8 +10,8 @@ The DreamFundX is a crowdfunding dapp that helps in the growth and development o
 1. React JS
 2. HTML/CSS
 3. Solidity
+4. Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Prerequisites
 
@@ -33,8 +33,8 @@ To run this on your local system, follow these steps:
 2. Install all the dependencies.
 ```
       npm install web3
-      npm install
       npm install firebase
+      npm install
 ```
 
 3. Open Ganache and connect metamask
@@ -51,11 +51,13 @@ You're all set! Head to http://localhost:3000/ on your browser to check out 'Dre
 * **web3.js** - Javascript library used to interact with the Ethereum blockchain 
 * **React Js** - A JavaScript library for building user interfaces 
 
-## Future work
+## Presentation
 
-Future work may include:
+[PPT_DreamFundX.pptx](PPT_DreamFundX.pptx)
 
+## Video Demo Link
 
+Youtube - [https://youtu.be/mK8LURERC9w](https://youtu.be/mK8LURERC9w)
 
 
 ## Team - DASH Truffles
