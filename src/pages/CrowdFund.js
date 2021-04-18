@@ -4,6 +4,7 @@ import UniqeButton from "../cf/Button/UniqeButton.js";
 import UniqeInput from "../cf/Input/UniqeInput";
 import Contract from "../contract/contract";
 import styles from "../css/crowdfund.css";
+import GenNavbar from "../components/GenNavbar";
 
 class CrowdFund extends React.Component {
   constructor(props) {
@@ -23,6 +24,8 @@ class CrowdFund extends React.Component {
   render() {
     if (this.state.compatible)
       return (
+        <>
+        <GenNavbar />
         <div className={styles.bg}>
           <div className="form-cont-1">
             <div className="form-cont-new">
@@ -45,7 +48,7 @@ class CrowdFund extends React.Component {
                       this.setState({ name: event.target.value })
                     }
                     value={this.state.name}
-                    placeholder="Name (optional)"
+                    placeholder="Name"
                     height="30px"
                     width="150px"
                   />
@@ -67,6 +70,7 @@ class CrowdFund extends React.Component {
             </div>
           </div>
         </div>
+        </>
       );
     else return <NotCompatible />;
   }
